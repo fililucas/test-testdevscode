@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="grid-container">
+
+    <header class="header">
+        <a href="index.html">
+            <img src="img/logo.png" width="60px" height="60px" alt="Logo">
+        </a>
+        <p>Muebles Patagonia</p>
+    </header>
+
+    <nav class="navbar">
+        
+        <a href="index.html">Inicio</a>
+
+        <a href="galeria.html">Imagenes</a>
+
+        <a href="productos.html">Productos</a>
+
+        <a href="informacion.html">Sobre nosotros</a>
+
+        <a href="contacto.html">Contacto</a></nav>
+
+    <aside class="sidebar">
+        <div class="redes">
+            <p>¡Seguinos en nuestras redes sociales!</p>
+            <a href="https://www.facebook.com">
+                <img src="img/facebook.png" width="50px" height="50px" alt="Logo facebook">
+            </a>
+            <a href="https://www.twitter.com">
+                <img src="img/twitter.png" width="50px" height="50px" alt="Logo twitter">
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="img/instagram.png" width="50px" height="50px" alt="Logo instagram">
+            </a>
+        </div>
+    </aside>
+
+    <article class="main">
+        <div class="formulario">
+            <h2>Formulario</h2>
+            <em>Los datos marcados con (*) son obligatorios.</em>
+            <form action="enviar.php" method="post" enctype="text/plain">
+                <label for="nombre">Nombre *:</label>
+                <input type="text" name="nombre" placeholder="" required>
+                <br>
+                <br>
+                <label for="apellido">Apellido *:</label>
+                <input type="text" name="apellido" placeholder="" required>
+                <br>
+                <br>
+                <label for="tel">Teléfono:</label>
+                <input type="number" placeholder="Número de teléfono">
+                <br>
+                <br>
+                <label for="email">E-mail *:</label>
+                <input type="email" placeholder="Correo electrónico" required>
+                <br>
+                <br>
+                <label for="Sexo">Sexo:</label>
+                <select name="Sexo">
+                    <option value="Selecciona">Selecciona</option>
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                    <option value="No definido">No definido</option>
+                </select>
+                <br>
+                <br>
+                <label for="comentarios">Comentario:</label>
+                <br>
+                <textarea name="comentarios" id="" cols="30" rows="5" placeholder="Escribe un comentario"></textarea>
+
+                <br>
+                <input type="submit" value="Envíar">
+                <input type="reset" value="Resetear formulario">
+
+
+            </form>
+        </div>
+    </article>
+
+    <footer class="footer">Muebles Patagonia ©
+        <img src="img/logo.png" width="60px" height="60px" alt="Logo">
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+
+</html>
